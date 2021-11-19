@@ -43,7 +43,7 @@ export const ReecesPage: FC = () => {
           <h3 className="reeces-full-stack-dev">Full Stack Developer</h3>
           <h5>Computer Science Major</h5>
           <div className="mt-3">
-            <a href="https://github.com/Rupersman">
+            <a href="https://github.com/reecewbourgeois">
               <Image src={GitHubLogo} alt="GitHub Link" />
             </a>
             <a href="https://www.linkedin.com/in/reecewaynebourgeois/">
