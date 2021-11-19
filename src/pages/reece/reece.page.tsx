@@ -20,16 +20,15 @@ import Robotics2018Team from '../../files/photos/2018 Robotics Team.jpg';
 const roliTheme = roliThemeJSON;
 
 export const ReecesPage: FC = () => {
-  const windowSize = window.matchMedia('(max-width: 800px)').matches;
-  const [listOrientation, setListOrientation] = useState('list-group-horizontal');
+  const [listOrientation, setListOrientation] = useState('list-group list-group-horizontal');
 
   useEffect(() => {
-    if (windowSize) {
-      setListOrientation('list-group-vertical');
+    if (window.matchMedia('(max-width: 1024px)').matches) {
+      setListOrientation('list-group list-group-vertical');
     } else {
-      setListOrientation('list-group-horizontal');
+      setListOrientation('list-group list-group-horizontal');
     }
-  }, [windowSize]);
+  }, []);
 
   return (
     <div className="reeces-page">
