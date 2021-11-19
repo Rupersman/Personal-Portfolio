@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { Image, ListGroup } from 'react-bootstrap';
 
 import {
@@ -20,6 +20,17 @@ import Robotics2018Team from '../../files/photos/2018 Robotics Team.jpg';
 const roliTheme = roliThemeJSON;
 
 export const ReecesPage: FC = () => {
+  const windowSize = window.matchMedia('(max-width: 800px)').matches;
+  const [listOrientation, setListOrientation] = useState('list-group-horizontal');
+
+  useEffect(() => {
+    if (windowSize) {
+      setListOrientation('list-group-vertical');
+    } else {
+      setListOrientation('list-group-horizontal');
+    }
+  }, [windowSize]);
+
   return (
     <div className="reeces-page">
       {/* Left Column */}
@@ -52,10 +63,10 @@ export const ReecesPage: FC = () => {
           }}>
           <Events>
             {/* Full Stack Developer Project #2 */}
-            <TextEvent date="2021 - Present" text="">
-              <h3>Full Stack Developer -- Project #2</h3>
+            <TextEvent className="text-event" date="2021 - Present" text="">
+              <h3 className="event-title">Full Stack Developer -- Project #2</h3>
               <hr />
-              <ListGroup horizontal className="align-self-center">
+              <ListGroup bsPrefix={listOrientation} className="align-self-center">
                 <ListGroup.Item className="reeces-code-list-item">Node.js</ListGroup.Item>
                 <ListGroup.Item className="reeces-code-list-item">Express.js</ListGroup.Item>
                 <ListGroup.Item className="reeces-code-list-item">TypeScript</ListGroup.Item>
@@ -71,7 +82,7 @@ export const ReecesPage: FC = () => {
             <TextEvent date="2020" text="">
               <h3>Full Stack Developer -- Project #1</h3>
               <hr />
-              <ListGroup horizontal className="align-self-center">
+              <ListGroup bsPrefix={listOrientation} className="align-self-center">
                 <ListGroup.Item className="reeces-code-list-item">Node.js</ListGroup.Item>
                 <ListGroup.Item className="reeces-code-list-item">Express.js</ListGroup.Item>
                 <ListGroup.Item className="reeces-code-list-item">React</ListGroup.Item>

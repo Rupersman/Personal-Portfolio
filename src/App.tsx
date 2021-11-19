@@ -1,4 +1,3 @@
-import './App.css';
 import { FC } from 'react';
 import { ReecesPage } from './pages/reece/reece.page';
 

@@ -73,3 +73,18 @@
   background-color: #4212aa;
   color: white;
 }
+
+/* CSS styles for phones */
+@media only screen and (max-width: 800px) {
+  .reeces-left-column {
+    width: 100%;
+    height: inherit;
+    position: relative;
+  }
+
+  .reeces-right-column {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+}
