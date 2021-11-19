@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.e25ce47f.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.ee3aa168.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.ee3aa168.chunk.js.map",
+    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.57679e9c.js",
+    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.57679e9c.js.map",
+    "static/js/2.5fb70653.chunk.js": "/personal-portfolio/static/js/2.5fb70653.chunk.js",
+    "static/js/2.5fb70653.chunk.js.map": "/personal-portfolio/static/js/2.5fb70653.chunk.js.map",
+    "index.html": "/personal-portfolio/index.html",
+    "static/css/main.e25ce47f.chunk.css.map": "/personal-portfolio/static/css/main.e25ce47f.chunk.css.map",
+    "static/js/2.5fb70653.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.5fb70653.chunk.js.LICENSE.txt",
+    "static/media/2016 Robotics Team.f7286d49.jpg": "/personal-portfolio/static/media/2016 Robotics Team.f7286d49.jpg",
+    "static/media/2017 Robotics Team.dae49eaf.jpg": "/personal-portfolio/static/media/2017 Robotics Team.dae49eaf.jpg",
+    "static/media/2018 Robotics Team.a8e3b2d1.jpg": "/personal-portfolio/static/media/2018 Robotics Team.a8e3b2d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57679e9c.js",
+    "static/js/2.5fb70653.chunk.js",
+    "static/css/main.e25ce47f.chunk.css",
+    "static/js/main.ee3aa168.chunk.js"
+  ]
+}
