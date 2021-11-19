@@ -1,0 +1,75 @@
+.reeces-page {
+  height: 100vh;
+}
+
+/*******************************/
+/********* Left Column *********/
+/*******************************/
+
+.reeces-left-column {
+  /* Act as a sidebar */
+  width: 30%;
+  height: inherit;
+  position: fixed;
+
+  background-color: #252526;
+  color: white;
+}
+
+.reeces-intro {
+  /* Center the reeces-intro text */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.reece-b {
+  color: #37bcb0;
+}
+
+.reeces-full-stack-dev {
+  color: #d79a4b;
+}
+
+.reeces-resume-icon-credit {
+  font-size: 0.8em;
+
+  /* Center text at bottom center of parent component */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+
+.reeces-image-button {
+  /* Remove background */
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
+}
+
+/********************************/
+/********* Right Column *********/
+/********************************/
+
+.reeces-right-column {
+  /* Right 70% of view port */
+  width: 70%;
+  height: inherit;
+  float: right;
+
+  /* Only this div is scrollable */
+  overflow: auto;
+
+  background-color: #1e1e1e;
+}
+
+.reeces-code-list-item {
+  background-color: #4212aa;
+  color: white;
+}
